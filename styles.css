@@ -1,0 +1,31 @@
+.nav_bar {
+    position: fixed;
+    z-index: 1000;
+}
+
+h1.header_name {
+    float: left;
+    margin: 20px 40px;
+    font-family: 'Orbitron';
+    font-size: 30px;
+    font-weight: lighter;
+    color: lightgray;
+}
+
+h1.header_name a:hover {
+    color: black;
+    -webkit-transition: color 1.5s;
+    transition: color 1.5s;
+    -moz-transition: color 1.5s;
+}
+
+a.header {
+    text-decoration: none;
+    -webkit-transition: color 1.5s;
+    transition: color 1.5s;
+    -moz-transition: color 1.5s;
+}
+
+a.header:visited {
+    color: lightgray;
+}
