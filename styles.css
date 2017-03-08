@@ -21,6 +21,7 @@ h1.header_name a:hover {
 
 a.header {
     text-decoration: none;
+    color: lightgray;
     -webkit-transition: color 1.5s;
     transition: color 1.5s;
     -moz-transition: color 1.5s;
