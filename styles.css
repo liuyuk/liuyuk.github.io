@@ -1,18 +1,21 @@
-.nav_bar {
+ul.nav_bar {
+    width: 100%;
+    list-style: none;
+    top: 0px;
     position: fixed;
     z-index: 1000;
 }
 
-h1.header_name {
+li.header_name {
     float: left;
-    margin: 20px 40px;
+    margin: 20px 30px;
     font-family: 'Orbitron';
     font-size: 30px;
     font-weight: lighter;
     color: lightgray;
 }
 
-h1.header_name a:hover {
+li.header_name a:hover {
     color: black;
     -webkit-transition: color 1.5s;
     transition: color 1.5s;
@@ -20,6 +23,7 @@ h1.header_name a:hover {
 }
 
 a.header {
+    display:block;
     text-decoration: none;
     color: lightgray;
     -webkit-transition: color 1.5s;
@@ -29,4 +33,46 @@ a.header {
 
 a.header:visited {
     color: lightgray;
+}
+
+li.about {
+    float: right;
+    width: 15%;
+    margin: 30px 20px 20px 20px;
+    font-family: 'Orbitron';
+    font-size: 15px;
+    font-weight: lighter;
+    color: lightgray;
+}
+
+li.about a:hover {
+    color: black;
+    -webkit-transition: color 1.5s;
+    transition: color 1.5s;
+    -moz-transition: color 1.5s;
+}
+
+a.about {
+    display: block;
+    text-decoration: none;
+    color: lightgray;
+    -webkit-transition: color 1.5s;
+    transition: color 1.5s;
+    -moz-transition: color 1.5s;
+}
+
+a.about:visited {
+    color: lightgray;
+}
+
+.about_container {
+    display: none;
+    background-color: black;
+    margin: 40px 20px;
+    position: fixed;
+    top: 45%;
+    left: 47%;
+    height: 2px;
+    width: 2px;
+    border-radius: 10px;
 }
