@@ -16,8 +16,14 @@ $(document).ready(function(){
                     left: '7%',
                     width: '80%'
                 }, 650);
+                $("p.about_body").delay(2500).fadeIn();
+                $("p.about_aside").delay(2500).fadeIn();
+                $("img.about_photo").delay(2500).fadeIn();
             } else {
-                $(".about_container").animate({
+                $("img.about_photo").fadeOut();
+                $("p.about_aside").fadeOut();
+                $("p.about_body").fadeOut();
+                $(".about_container").delay(500).animate({
                     left: '47%',
                     width: '2px'
                 }, 650);

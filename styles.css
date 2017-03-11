@@ -36,10 +36,11 @@ a.header:visited {
 }
 
 li.about {
-    float: right;
-    width: 15%;
+    position: fixed;
+    right: 5%;
+    width: 50px;
     margin: 30px 20px 20px 20px;
-    font-family: 'Orbitron';
+    font-family: 'Raleway';
     font-size: 15px;
     font-weight: lighter;
     color: lightgray;
@@ -67,12 +68,60 @@ a.about:visited {
 
 .about_container {
     display: none;
-    background-color: black;
+    background-color: #1a1a1a;
     margin: 40px 20px;
     position: fixed;
     top: 45%;
     left: 47%;
     height: 2px;
     width: 2px;
-    border-radius: 10px;
+    border-radius: 5px;
+    z-index: 2;
+    overflow-y: auto;
+}
+p.about_body{
+    display: none;
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: 15px;
+    width: 65%;
+    color: whitesmoke;
+    margin: 40px 20px 30px 20px;
+    float: left;
+}
+p.about_aside{
+    font-family: "Orbitron";
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 23%;
+    color: whitesmoke;
+    margin: 40px 30px 30px 20px;
+    float: left;
+    display: none;
+}
+img.about_photo{
+    float: left;
+    right: 50%;
+    height: 180px;
+    width: 180px;
+    margin: 40px 30px 10px 220px;
+    border-radius: 50%;
+    border: 6px solid #1a1a1a;
+    box-shadow: 0 0 0 1px whitesmoke;
+    display: none;
+}
+.main_body {
+    margin: 4px 20px;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    height: 400px;
+    width: 600px;
+}
+
+h1.body_text_header {
+    font-family: "Raleway";
+    font-size: 50px;
+    color: #1a1a1a;
 }
