@@ -71,7 +71,6 @@ a.about:visited {
 
 .about_container {
     display: none;
-    background-color: #1a1a1a;
     margin: 40px 20px;
     position: fixed;
     top: 45%;
@@ -81,7 +80,7 @@ a.about:visited {
     border-radius: 5px;
     z-index: 2;
     overflow-y: auto;
-    border: 0.8px solid black;
+    border: 0.5px solid black;
 }
 p.about_body{
     display: none;
@@ -89,7 +88,7 @@ p.about_body{
     font-weight: lighter;
     font-size: 15px;
     width: 65%;
-    color: whitesmoke;
+    color: black;
     margin: 40px 20px 30px 20px;
     float: left;
 }
@@ -99,7 +98,7 @@ p.about_aside{
     font-weight: lighter;
     font-style: italic;
     width: 23%;
-    color: whitesmoke;
+    color: black;
     margin: 60px 30px 30px 40px;
     float: left;
     display: none;
@@ -111,8 +110,8 @@ img.about_photo{
     width: 180px;
     margin: 60px 30px 10px 220px;
     border-radius: 50%;
-    border: 6px solid #1a1a1a;
-    box-shadow: 0 0 0 1.2px whitesmoke;
+    border: 6px solid white;
+    box-shadow: 0 0 0 1.2px black;
     display: none;
 }
 .main_body {
